@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     @RequestMapping("/user")
+
     public String user() {
+        System.out.println("Feature change for testing purposes");
         return "User endpoint reached!";
     }
 }
